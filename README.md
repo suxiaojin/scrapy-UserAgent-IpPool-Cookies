@@ -10,3 +10,6 @@ transcookies是把cookies字符串转化为scrapy能用的dict
     import sys
     reload(sys)
     sys.setdefaultencoding('utf8')
+    
+### ip_pool
+    通过抓取西刺代理的ip。最后在middleware中需要调用
